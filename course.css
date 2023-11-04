@@ -1,0 +1,208 @@
+#out
+{
+    border:2px solid black;
+    margin-top:-8px;
+    padding-top:10px;
+    padding-bottom: 3px;
+    background-color: #04364A;
+    color:white;
+    
+    
+}
+
+
+.pi
+{
+  margin-left:65%;
+  margin-top:-25px;
+ 
+  
+ 
+}
+.ph
+{
+    margin-top:-28px;
+    margin-left:88%;
+    
+   
+    
+}
+
+.pr
+{
+    margin-top:-42px;
+    margin-left:95%;
+    
+
+    
+
+}
+.po img
+{
+    margin-top: 12px;
+}
+
+#out2
+{
+    border:2px solid black;
+    padding-bottom: 34px;
+    font-size: 25px;
+   
+    background-color:#64CCC5;
+    
+}
+
+#log1
+{
+  margin-left: 20px;
+  padding-top:4px;
+  padding-bottom:4px;
+  
+}
+
+#log2
+{
+    margin-left:35%;
+    margin-top: -65px;
+    text-decoration: none;
+    
+}
+
+#log3
+{
+    margin-left:42%;
+    margin-top:-28px;
+    text-decoration: none;
+}
+
+#log4
+{
+    margin-left:50%;
+    margin-top:-28px;
+    text-decoration: none;
+  
+}
+
+
+#log5
+{
+    margin-left:65%;
+    margin-top:-28px;
+    text-decoration: none;
+}
+
+
+#log6
+{
+    margin-left:72%;
+    margin-top:-28px;
+    text-decoration: none;
+}
+
+
+#log7
+{
+    margin-left:83%;
+    margin-top:-28px;
+    text-decoration: none;
+   
+}
+
+
+#log8
+{
+    margin-left:92%;
+    margin-top:-26px;
+    text-decoration: none;
+    border:2px solid black;
+    font-size: 16px;
+    margin-right: 13px;
+    padding:2px;
+}
+a:visited{
+    color:white;
+}
+a
+{
+    text-decoration: none;
+
+}
+
+
+.foot-col
+{
+    border:3px solid black;
+    background-color:black;
+    color: aliceblue;
+    padding-bottom: 150px;
+}
+
+.foot2,.foot3,.foot4
+{
+    margin-left:30%;
+    margin-top:-290px;
+    
+}
+.foot3
+{
+    margin-left:65%;
+    margin-top:-195px;
+}
+.foot4{
+    margin-left:90%;
+    margin-top: -90px;
+}
+h4{
+    margin-left: 38px;
+    margin-top: -25px;
+  
+}
+.c1
+{
+    font-size: 35px;
+}
+a:hover{
+    background-color:#04364A;
+}
+
+.pop
+{
+    border:15px solid transparent;
+    border-image: linear-gradient(to bottom,red,yellow);
+    border-image-slice: 1;
+}
+.g1,.g2
+{
+  background-color: black;
+  padding:3px;
+  margin-top: 2px;
+  
+}
+.j1,.j2,.j3,.j4
+{
+    border:3px solid green;
+    transition: transform .2s;
+
+}
+.j1:hover,.j2:hover,.j3:hover,.j4:hover {
+    transform: scale(1.5);
+}
+.g1{
+    margin-left: -180px;
+    margin-top: 18px;
+}
+.h1{
+    
+    background-color: rgb(210, 128, 195);
+    text-align: center;
+    margin-right: -350px;
+    padding-right: 30px;
+  
+}
+.g3, p{
+    margin-left: 30px; 
+}
+footer
+{
+    border:2px solid black;
+}
