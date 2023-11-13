@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar2 {
+  background-color: #04364A;
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+
+.logo2 {
+  margin-right: auto;
+}
+
+.logo2 a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+.logo2 a:hover
+{
+    background-color: #04364A;
+    padding:20px;
+}
+
+.menu-icon2 {
+  display: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-list2 {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-list2 li {
+    font-size: 20px;
+    margin-top: 15px;
+    padding-right: 90px;
+   
+  }
+  #pe
+  {
+    margin-top: -14px;
+  }
+
+.nav-list2 li.right {
+  margin-left: 20px;
+}
+
+.nav-list2 li.right:first-child {
+  margin-left: auto;
+}
+
+.nav-list2 li a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+    background-color:#04364A;
+    padding: 10px;
+}
+
+
+/* Media Query for Responsive Navigation */
+@media screen and (max-width: 768px) {
+  .logo2 a {
+    font-size: 16px;
+  }
+
+  .menu-icon2 {
+    display: block;
+  }
+
+  .nav-list22 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    left: 0;
+   
+
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav-list2 li {
+    margin-right: 0;
+    
+    text-align: center;
+   
+  }
+
+  .nav-list2 li a {
+    padding: 10px;
+    
+    display: block;
+  }
+
+  #menu-toggle2:checked ~ .nav-list {
+    display: flex;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar2">
+        <div class="logo2">
+          <a href="#"><img src="phonewhite.jpg" alt="" width="20px">088687313287</a>
+        </div>
+        <input type="checkbox" id="menu-toggle2">
+        
+        <label for="menu-toggle2" class="menu-icon2">&#9776;</label>
+        <ul class="nav-list2">
+           <li> <a href="#"><img src="mailwhite.png" alt="" width="20px">hello@tap.com</a></li>
+          <li><a href="#"><img src="instagramlogo.png" alt="" width="32px" height="32px"></a></li>
+          <li ><a  href="#"><img  id="pe"  src="youtube.png" alt="" width="50px" height="60px"></a></li>
+        </ul>
+      </nav>
+    
+</body>
+</html>
